@@ -15,14 +15,12 @@ import {
     git,
     figma,
     docker,
-    meta,
     starbucks,
     tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    libratrack,
+    stockpilot,
+    dailyNewsNetwork,
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +52,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Cloud Engineer",
       icon: creator,
     },
   ];
@@ -116,55 +114,31 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Software Engineer",
+      company_name: "Datopic Technologies Pvt Ltd.",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Software Engineer specializing in Python backend development using FastAPI framework.",
+        "Work with both SQL and NoSQL databases for efficient data management and retrieval."
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "Fintom8",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Jan 2025 - Present",
+      points: [
+        "Developing and maintaining web applications using Vue.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Skilled in Google Cloud Platform (GCP) App Engine for deployment and cloud operations."
       ],
     },
   ];
@@ -198,9 +172,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Libratrack",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A comprehensive library management system that allows users to track books, manage inventory, and streamline library operations with an intuitive web interface.",
       tags: [
         {
           name: "react",
@@ -211,57 +185,57 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: libratrack,
       source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      demo_link: "https://libratrack-v1.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "StockPilot",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An advanced stock trading and portfolio management application built with Angular, providing real-time market data and comprehensive trading tools for investors.",
       tags: [
         {
-          name: "react",
+          name: "angular",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "html",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      image: stockpilot,
+      source_code_link: "https://github.com/harshbansal6/StockPilot",
+      demo_link: "https://github.com/harshbansal6/StockPilot",
     },
     {
-      name: "Trip Guide",
+      name: "Daily News Network",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive news aggregation platform that provides users with the latest news from various categories including politics, business, technology, sports, and entertainment.",
       tags: [
         {
-          name: "nextjs",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: dailyNewsNetwork,
       source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      demo_link: "https://daily-news-network-xhgh.onrender.com/",
     },
   ];
   

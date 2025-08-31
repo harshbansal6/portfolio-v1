@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import libratrack from "./libratrack.png";
+import stockpilot from "./stockpilot.png";
+import dailyNewsNetwork from "./daily-news-network.png";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  libratrack,
+  stockpilot,
+  dailyNewsNetwork,
 };
