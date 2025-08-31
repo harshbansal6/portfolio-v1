@@ -21,10 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import datopic from "./company/favicon.ico";
+import fintom8 from "./company/fintom8.ico";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -32,6 +30,8 @@ import tripguide from "./tripguide.png";
 import libratrack from "./libratrack.png";
 import stockpilot from "./stockpilot.png";
 import dailyNewsNetwork from "./daily-news-network.png";
+import portfolio from "./portfolio.png";
+import converter from "./converter.png";
 
 export {
   logo,
@@ -55,14 +55,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  datopic,
   carrent,
   jobit,
   tripguide,
   libratrack,
   stockpilot,
   dailyNewsNetwork,
+  fintom8,
+  portfolio,
+  converter,
 };

@@ -15,12 +15,14 @@ import {
     git,
     figma,
     docker,
-    starbucks,
-    tesla,
+    fintom8,
     threejs,
     libratrack,
     stockpilot,
     dailyNewsNetwork,
+    datopic,
+    portfolio,
+    converter,
   } from "../assets";
   
   export const navLinks = [
@@ -116,7 +118,7 @@ import {
     {
       title: "Software Engineer",
       company_name: "Datopic Technologies Pvt Ltd.",
-      icon: starbucks,
+      icon: datopic,
       iconBg: "#383E56",
       date: "Jan 2023 - Present",
       points: [
@@ -130,7 +132,7 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "Fintom8",
-      icon: tesla,
+      icon: fintom8,
       iconBg: "#E6DEDD",
       date: "Jan 2025 - Present",
       points: [
@@ -236,6 +238,50 @@ import {
       image: dailyNewsNetwork,
       source_code_link: "https://github.com/",
       demo_link: "https://daily-news-network-xhgh.onrender.com/",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "A modern and responsive personal portfolio website showcasing professional experience, skills, and projects with an elegant design and smooth user experience.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/",
+      demo_link: "https://harshbansal6.github.io/portfolio/",
+    },
+    {
+      name: "Fintom8 Converter",
+      description:
+        "An AI-driven e-invoice converter that transforms any invoice document or image into ZUGFeRD e-invoice format, streamlining digital invoice processing.",
+      tags: [
+        {
+          name: "vuejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ai",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: converter,
+      source_code_link: "https://github.com/",
+      demo_link: "https://fintom8.com/e-invoice-converter/",
     },
   ];
   
