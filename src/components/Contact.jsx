@@ -39,9 +39,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Vishwa Offl",
+          to_name: "Harsh Offl",
           from_email: form.email,
-          to_email: "rvishwavinoth@gmail.com",
+          to_email: "harshhb6@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -59,9 +59,14 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          console.error("EmailJS Error Details:", error);
+          
+          // More specific error handling
+          if (error.text && error.text.includes("412Gmail_API")) {
+            alert("Gmail API authentication error. Please check your EmailJS service configuration and Gmail API scopes.");
+          } else {
+            alert("Ahh, something went wrong. Please try again.");
+          }
         }
       );
   };
