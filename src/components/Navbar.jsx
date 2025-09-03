@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, github, linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -34,20 +34,42 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Harsh &nbsp;
-            <span className='sm:block hidden'> | Harsh</span>
-          </p>
-        </Link>
+        <div className='flex items-center gap-2'>
+          <Link
+            to='/'
+            className='flex items-center gap-2'
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+          >
+            <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+            <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+              Harsh &nbsp;
+              <span className='sm:block hidden'> | Bansal</span>
+            </p>
+          </Link>
+          
+          {/* Social Media Icons */}
+          <div className='flex items-center gap-3 ml-4'>
+            <a
+              href="https://github.com/harshbansal6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity duration-300"
+            >
+              <img src={github} alt='GitHub' className='w-6 h-6 object-contain' />
+            </a>
+            <a
+              href="https://linkedin.com/in/harsh-bansal06"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity duration-300"
+            >
+              <img src={linkedin} alt='LinkedIn' className='w-6 h-6 object-contain' />
+            </a>
+          </div>
+        </div>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
